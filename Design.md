@@ -13,15 +13,22 @@ Assessment Standards: **91902** and **91903**
 
 ### Identified Need or Problem
 
-Investment Vehicles are slowly going on the decline, and finding them is becoming more and more difficult, so being able to have all things investment vehicles in one place whether it be just showing them of, or looking to buy or sell, will be ideal for the car enthusiast community.
+Investment Vehicles are slowly going on the decline, and finding them is becoming more and more difficult, so being able to have all things investment vehicles in one place, for buying or selling, will be ideal for the car investment community.
 
 ### End-User Requirements
 
-My end users will be car enthusiasts and car investors. For enthusiasts, it could be just browsing the catalog to look at the cars, for the sake of looking at the cars. And them we have the investors, who are actually looking for cars to buy and sell. We need to be able to browse through the cars that other investors have added, and be able to send a message with an offer to buy the cars that investors have listed as "For Sale".
+**Car Investors** are people who buy old/classic cars knowing that over the period they have them, they can sell them for more money that they bought is for. These **investors** need to sell their cars they have, and after they have sold them will want to buy a new one. They will need to see a list of cars that are available to them, and be about to have a way to contact the buyer with an offer for a car they want.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+My proposed solution to this is a website, where investors can view all the cars available to them on a home page. They should be able to view a photo of the the car they want, and it be linked to a page with more information about the car, including a way to contact the owner with an offer. 
+
+**Investors** should be able too:
+- Make an account on the website.
+- Be able to sign in and out of the website.
+- Be able to list cars, with a photo and information about said car.
+- When viewing the car, be able to send a message to the owner, asking questions, or making an offer.
+- Each user will have an inbox where they can receive these questions and offers on their vehicles.
 
 
 -------------------------------------------------
