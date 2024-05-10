@@ -30,30 +30,53 @@ My proposed solution to this is a website, where investors can view all the cars
 - When viewing the car, be able to send a message to the owner, asking questions, or making an offer.
 - Each user will have an inbox where they can receive these questions and offers on their vehicles.
 
+ 
 
 -------------------------------------------------
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### Functionality Implications
 
-Replace this text with a clear explanation of what the implication means.
+The functionality implications of a digital technology or digital outcome (e.g. a website) relate to how well it works for the end-user, in terms of meeting its intended purpose.
+
+It is important to have a website that works, well and is easy to use, since a good number of my end users will be older people, who won't have much experience with tech.
+
+To cater for those that are less experienced with tech using this website, I will make sure that navigation throughout my website will be easy. I will insure this by using:
+- Have the design of the website simple and minimalistic
+- Make Page transitions smooth
+- Make sure to test for bugs constantly
+
+### Aesthetic Implications
+
+The aesthetic implications of a digital technology or digital outcome (e.g. a website) relate to how it looks in terms of design.
+
+Making a website look appealing one of, if not **the** most important things to consider when making a website. I plan to have my website very simplistic. With a light colour scheme, and simplistic font.
+
+Some things I will need to consider relating to this heuristic are:
+- Having a good colour scheme
+- Getting a good font that works well with said colour scheme
+- Having the content of the page laid out well
+
+### End-User Implications
+
+The end-user implications of a digital technology or digital outcome (e.g. a website) are connected to the specific needs of the end-user(s).
 
 Replace this text with an explanation of why the implication is relevant to this particular project.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
-### IMPLICATION NAME HERE
+### Accessibility Implications
 
-Replace this text with a clear explanation of what the implication means.
+The accessibility implications of a digital technology or digital outcome (e.g. a website) involve ensuring it is available to, and can be used by, all end-users, regardless of their abilities.
 
 Replace this text with an explanation of why the implication is relevant to this particular project.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
-### IMPLICATION NAME HERE
+### Social Implications
 
-Replace this text with a clear explanation of what the implication means.
+The social implications of a digital technology or digital outcome (e.g. a website) involve how it affects users, the wider community and society as a whole.
 
 Replace this text with an explanation of why the implication is relevant to this particular project.
 
