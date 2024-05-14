@@ -62,15 +62,18 @@ Some things I will need to consider relating to this heuristic are:
 
 The end-user implications of a digital technology or digital outcome (e.g. a website) are connected to the specific needs of the end-user(s).
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is relevant because people of varying adult ages will be using this site, and having a UI that is easy to use and be usable for all the ages that might use it. Making sure the site appeals to that target audience is important as well. Using cool, more masculine type colours to make sure the sight isn't repulsive to the target audience.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Things I will need to consider moving forward is: 
+- Making the UX very easy, and not complex.
+- Use cool, Masculine type colours
+- Make sure the site is appealing
 
 ### Accessibility Implications
 
 The accessibility implications of a digital technology or digital outcome (e.g. a website) involve ensuring it is available to, and can be used by, all end-users, regardless of their abilities.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
