@@ -66,16 +66,19 @@ This implication is relevant because people of varying adult ages will be using 
 
 Things I will need to consider moving forward is: 
 - Making the UX very easy, and not complex.
-- Use cool, Masculine type colours
+- Use cool, masculine type colours
 - Make sure the site is appealing
 
 ### Accessibility Implications
 
 The accessibility implications of a digital technology or digital outcome (e.g. a website) involve ensuring it is available to, and can be used by, all end-users, regardless of their abilities.
 
+Making sure this website is accessible for all uses is a must. To insure this, I will make sure that the site is comparable with both personal computers, and touchscreen devices such at tablets and mobile phones. I will also make sure that my website doesn't rely on heavily on red/green colours so those who are colour-blind won't be impaired while using my site.
 
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Things I will need to consider moving forward for this implication is: 
+- Make site usable on all devices
+- Accessible for the colour-blind
+- Have good colours and fonts.
 
 ### Social Implications
 
@@ -114,49 +117,65 @@ Replace this text with an explanation of why the principle is relevant to this p
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
+-------------------------------------------------
+
+## Final System Design
+
+### Database Structure
+
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
+### User Interface Design
+
+Place images here that show your *final design* of your UI: layout, colours, etc.
+
 
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Completed System
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Review and Evaluation
 
-Replace this test with what you are working on
+### Meeting the Needs of the Users
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-### DATE HERE
+### Meeting the System Requirements
 
-Replace this test with what you are working on
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of UX PRINCIPLE NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of UX PRINCIPLE NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
