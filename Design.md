@@ -80,38 +80,44 @@ Things I will need to consider moving forward for this implication is:
 - Accessible for the colour-blind
 - Have good colours and fonts.
 
-### Social Implications
+### Privacy Implications
 
-The social implications of a digital technology or digital outcome (e.g. a website) involve how it affects users, the wider community and society as a whole.
+The privacy implications of a digital technology or digital outcome (e.g. a website) relate to protecting the privacy of end-users and their data.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This website needs to have an account system, and be able to log in and out successfully. with thins we need to have some kind of password security to insure the safety of the end-users data. 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
-
+Things I will need to consider moving forward for this implication is: 
+- Hashing users passwords for security purposes
+- Making an account should be simple and easy
 
 -------------------------------------------------
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Match Between System and the Real World
 
-Replace this text with a clear explanation of what the UX design principle means.
+Use words, images and concepts that are familiar to the user.
+Reflect real-world experiences.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+Make the UI similar to other browsing/shopping apps to insure familiarity.
+
+Things I will need to consider moving forward for this implication is: 
+- Using drop-down menus
+- Using check boxes
+- Having an image to show the car
+
+###  Consistency and Standards
+
+Where possible, stick to conventions for UI elements and layout.
+In general, place menus at the top or left-side, use standard icons for home, etc.
+
+
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
-### UX PRINCIPLE NAME HERE
+### Help and Documentation
 
-Replace this text with a clear explanation of what the UX design principle means.
-
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
+Try to create a system that doesn't need documentation, but if it is required, keep it short and easy to access.
 
 Replace this text with an explanation of why the principle is relevant to this particular project.
 
