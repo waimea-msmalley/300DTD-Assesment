@@ -111,17 +111,22 @@ Things I will need to consider moving forward for this implication is:
 Where possible, stick to conventions for UI elements and layout.
 In general, place menus at the top or left-side, use standard icons for home, etc.
 
+I'll make the navigation easy to see, read, and use icons that are familiar and are very self-explanatory.
 
+I'll use things like:
+- A house icon to go back to the home page
+- Have all the navigation on the top of the screen, or in a dropdown menu.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+### Aesthetic and Minimalist Design
 
-### Help and Documentation
+Keep the UI a simple as possible, focussing on the current user action. Only show necessary information at any stage. Avoid overwhelming the user with useless information.
 
-Try to create a system that doesn't need documentation, but if it is required, keep it short and easy to access.
+Making sure the UI is easy to use and simple is a necessity for this project, to make sure it is easy to use for those in a higher age group.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+I'll do this by:
+- Only showing important information on the screen
+- Make sure that adding cars to the database is not complicated/extensive
+- Make sure navigating is not overwhelming.
 
 -------------------------------------------------
 
