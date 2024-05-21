@@ -11,11 +11,12 @@ Assessment Standards: **91902** and **91903**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 21/05/24
 
-Replace this test with what you are working on
+Starting Database Sketch
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I began looking at what my final database would look like, and after a few different iterations, I landed on this. Each user can have many cars on the sight.
+![Alt text](db.png)
 
 > Replace this text with any user feedback / comments
 
