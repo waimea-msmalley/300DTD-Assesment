@@ -16,7 +16,7 @@ Assessment Standards: **91902** and **91903**
 Starting Database Sketch
 
 I began looking at what my final database would look like, and after a few different iterations, I landed on this. Each user can have many cars on the sight.
-![Alt text](db.png)
+![Alt text](images/db.png)
 
 > Replace this text with any user feedback / comments
 
