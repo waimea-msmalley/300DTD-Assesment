@@ -22,11 +22,12 @@ I began looking at what my final database would look like, and after a few diffe
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 23/05/24
 
-Replace this test with what you are working on
+Sketched how website will run
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Below is a all the actions I will aim to include in the functionality of my Website, including all the pages, their function, and all the options that the users will have when accessing the pages.
+![Alt text](sketch.png)
 
 > Replace this text with any user feedback / comments
 
