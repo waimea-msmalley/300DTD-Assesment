@@ -24,7 +24,7 @@ Replace this text with notes describing how you acted upon the user feedback: ma
 
 ### 23/05/24
 
-Sketched how website will run
+Sketched out how I intend the website will run
 
 Below is a all the actions I will aim to include in the functionality of my Website, including all the pages, their function, and all the options that the users will have when accessing the pages.
 ![Alt text](sketch.png)
@@ -33,11 +33,12 @@ Below is a all the actions I will aim to include in the functionality of my Webs
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 24/05/24
 
-Replace this test with what you are working on
+Started on Website Design using Figma
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+This is the first draft of what the front end of the home page of my website will look like. I will most definitely add to this, but I will get the end-user to give me tips on what to add.  
+![Alt text](figmav1.png)
 
 > Replace this text with any user feedback / comments
 
