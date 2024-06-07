@@ -46,21 +46,22 @@ Search bar was added, I shall look at colours later down the track.
 
 ![Alt text](images/searchbar.png)
 
-### DATE HERE
+### 07/06/24
 
-Replace this test with what you are working on
+Finished Figma Draft
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
+I finished a first draft on all the pages in my website.
+![Alt text](images/figmav2.png)
 > Replace this text with any user feedback / comments
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 07/06/24
 
-Replace this test with what you are working on
+Colour Scheme
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+This is the scheme I liked the most after testing some out. I shall see what my end user says.
+![Alt text](images/colour.png)
 
 > Replace this text with any user feedback / comments
 
