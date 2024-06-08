@@ -93,5 +93,6 @@ Old 'Inter' Font
 ![alt text](images/oldfont.png)
 
 New 'Jaldi' Font
+
 ![alt text](images/newfont.png)
 
