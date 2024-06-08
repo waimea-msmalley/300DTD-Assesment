@@ -59,7 +59,7 @@ I think I will need to make the navigation tab a little larger in the coded vers
 
 ### 07/06/24
 
-Colour Scheme/Font
+Colour Scheme
 
 This is the scheme I liked the most after testing some out. I shall see what my end user says.
 ![Alt text](images/colour.png)
@@ -68,12 +68,28 @@ This is the scheme I liked the most after testing some out. I shall see what my 
 
 I have changed the colour scheme on all the pages to the darker scheme as the end user requested.
 
-### DATE HERE
+Old Colour Scheme
+![alt text](images/oldscheme.png)
+New Colour Scheme
+![alt text](images/newscheme.png)
 
-Replace this test with what you are working on
+New UI Design
+![alt text](images/newui.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-> Replace this text with any user feedback / comments
+### 08/06/24
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+Font
+
+I had a look at all the diffrent fonts that Figma has integrated into their system. I like the font Jaldi for my website. It's Clear, not fancy and easy to read.
+![alt text](images/newfont.png)
+
+> My end user also likes the Jaldi Font, for the same reasons I do, commenting on the fact that its not fancy, and hard on his eyes.
+
+I will use the Jaldi font when I start coding the website.
+
+Old 'Inter' Font
+![alt text](images/oldfont.png)
+New 'Jaldi' Font
+![alt text](images/newfont.png)
+
