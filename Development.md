@@ -82,6 +82,7 @@ New UI Design
 Font
 
 I had a look at all the diffrent fonts that Figma has integrated into their system. I like the font Jaldi for my website. It's Clear, not fancy and easy to read.
+
 ![alt text](images/newfont.png)
 
 > My end user also likes the Jaldi Font, for the same reasons I do, commenting on the fact that its not fancy, and hard on his eyes.
