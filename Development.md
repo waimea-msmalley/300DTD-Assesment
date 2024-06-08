@@ -89,7 +89,9 @@ I had a look at all the diffrent fonts that Figma has integrated into their syst
 I will use the Jaldi font when I start coding the website.
 
 Old 'Inter' Font
+
 ![alt text](images/oldfont.png)
+
 New 'Jaldi' Font
 ![alt text](images/newfont.png)
 
