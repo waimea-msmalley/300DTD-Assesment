@@ -29,9 +29,9 @@ Sketched out how I intend the website will run
 Below is a all the actions I will aim to include in the functionality of my Website, including all the pages, their function, and all the options that the users will have when accessing the pages.
 ![Alt text](images/sketch.png)
 
-> Replace this text with any user feedback / comments
+> End User was happy with how it looked, and siad he couldn't wait to see a working version.
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+My end user gave me no feedback to act on.
 
 ### 24/05/24
 
@@ -52,20 +52,21 @@ Finished Figma Draft
 
 I finished a first draft on all the pages in my website.
 ![Alt text](images/figmav2.png)
-> Replace this text with any user feedback / comments
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+> End user is very happy with how the draft is layed out, and how all the components function with each other. I let the end user navigate around the wesite himself, and he didn't have any issues with the UI or Functionality.
+
+I think I will need to make the navigation tab a little larger in the coded version. But other than that, no immediate changes will be made.
 
 ### 07/06/24
 
-Colour Scheme
+Colour Scheme/Font
 
 This is the scheme I liked the most after testing some out. I shall see what my end user says.
 ![Alt text](images/colour.png)
 
-> Replace this text with any user feedback / comments
+> End user was much happier with the darker colour as apposed to the white, grey and black. They were also a big fan of the green.
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+I have changed the colour scheme on all the pages to the darker scheme as the end user requested.
 
 ### DATE HERE
 
