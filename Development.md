@@ -97,3 +97,132 @@ New 'Jaldi' Font
 
 ![alt text](images/newfont.png)
 
+### 11/06/24
+
+Created Database
+
+I used the template that I made in the first development log, and created it in MySQL. It has all the tables and columns that I planned, and it looks great.
+
+Tables:
+
+![Alt text](images/carstable.png) ![Alt text](images/messagetable.png) ![Alt text](images/usertable.png)
+
+I also added some test data to the 'users' and 'cars' tables, and they are all working as expected.
+
+![Alt text](images/userstest.png)
+![Alt text](images/carstest.png)
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+### DATE
+
+Title of Progress
+
+
+Details of Project
+
+> User Feedback
+
+How user Feedback was acted upon.
+
