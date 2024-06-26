@@ -1,24 +1,33 @@
 <section>
 
+    <h1>Add a Car</h1>
+
     <article>
+        <form
+            hx-post="/form"
+            hx-trigger="submit"
+            hx-swap="outerHTML"
+            enctype="multipart/form-data"
+        >
 
-        <h1>Simple PHP Routing System with HTMX Support</h1>
+            <label>Year</label>
+            <input name="name" type="text" required>
 
-        <p>Find this project on <a href="https://github.com/waimea-dt/php-routing">GitHub</a><p>
+            <label>Make</label>
+            <input name="name" type="text" required>
 
-    </article>
-    
-    <article>
+            <label>Model</label>
+            <input name="name" type="text" required>
 
-        <p>This is a simple routing system using PHP as the back-end. It provides the following features:
+            <label>Description</label>
+            <input name="name" type="text" required>
 
-        <ul>
-            <li><strong>Routing</strong> via URLs that can include parameters and values</li>
-            <li><strong>CRUD</strong> operations via HTTP request methods: POST, GET, PUT, DELETE</li>
-            <li><strong>Templating</strong> with layouts, partials, etc.</li>
-            <li><a href="https://htmx.org/"><strong>HTMX</strong></a> component support</li>
-        </ul>
+            <label>Price</label>
+            <input name="name" type="text" required>
 
+            <input type="submit" value="Add Car">
+
+        </form>
     </article>
 
 </section>
