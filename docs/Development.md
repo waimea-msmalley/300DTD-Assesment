@@ -29,7 +29,7 @@ Sketched out how I intend the website will run
 Below is a all the actions I will aim to include in the functionality of my Website, including all the pages, their function, and all the options that the users will have when accessing the pages.
 ![Alt text](images/sketch.png)
 
-> End User was happy with how it looked, and siad he couldn't wait to see a working version.
+> End User was happy with how it looked, and said he couldn't wait to see a working version.
 
 My end user gave me no feedback to act on.
 

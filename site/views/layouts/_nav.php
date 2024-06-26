@@ -5,7 +5,8 @@
     <menu hx-boost="true">
 
         <li><a href="/">Home</a>
-        <li><a href="/about">About</a>
+        <li><a href="/addcar">Add Car</a>
+        <li><a href="/messages">Messages</a>
 
     </menu>
 
