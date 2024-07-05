@@ -1,4 +1,4 @@
-<h1>Hello from the Simple PHP Router!</h1>
+<h1>Cars!</h1>
 
 
 

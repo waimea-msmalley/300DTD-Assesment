@@ -2,9 +2,14 @@
 
 <header id="main-header">
     
-    <a href="/"><?= SITE_NAME ?></a>
+    <a href="/home"><?= SITE_NAME ?></a>
 
     <?php require '_nav.php'; ?>
+
+    <?php if ($loggedIn) {
+    echo '<p>Hello, ' . $_SESSION['user']['forename'] . '</p>';
+    }
+?>
 
 </header>
 

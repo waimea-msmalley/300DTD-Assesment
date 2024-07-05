@@ -1,15 +1,20 @@
 <!-- Main navigation menu. Can add logic for user type / access -->
+<?php
+    global $loggedIn;
+?>
 
 <nav id="main-nav">
 
     <menu hx-boost="true">
+        <?php if ($loggedIn): ?>
+            <li><a href="/addcar">Add Car</a>
+            <li><a href="/messages">Messages</a>
+            <li><a href="/logout">Logout</a>
 
-        <li><a href="/">Home</a>
-        <li><a href="/addcar">Add Car</a>
-        <li><a href="/messages">Messages</a>
+        
+        <?php endif ?> 
 
     </menu>
-
 </nav>
 
 

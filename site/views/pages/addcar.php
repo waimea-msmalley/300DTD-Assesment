@@ -4,7 +4,7 @@
 
     <article>
         <form
-            hx-post="/form"
+            hx-post="/addcar"
             hx-trigger="submit"
             hx-swap="outerHTML"
             enctype="multipart/form-data"
@@ -18,6 +18,9 @@
 
             <label>Model</label>
             <input name="name" type="text" required>
+
+            <label>Picture of Car</label>
+            <input name="image" type="file" value="image/" accept="image/*" required>
 
             <label>Description</label>
             <input name="name" type="text" required>

@@ -5,12 +5,19 @@
 require_once 'lib/debug.php';
 require_once 'lib/router.php';
 
-
 //-------------------------------------------------------------
 // Site Configuration
 const SITE_NAME  = 'MotiveAuto';
 const SITE_OWNER = 'Myles Smalley';
 
+//-------------------------------------------------------------
+// Setup our session
+session_name('MotiveAuto');
+session_start();
+
+//-------------------------------------------------------------
+// Initialise the router
+$loggedIn = $_SESSION['user']['loggedIn'] ?? false;
 
 //-------------------------------------------------------------
 // Initialise the router
@@ -19,11 +26,29 @@ $router = new Router(['debug' => true]);
 
 //-------------------------------------------------------------
 // Define routes
+//Starting Page
+$router->route(GET, PAGE,  '/',         'pages/welcome.php');
 
-$router->route(GET, PAGE, '/',         'pages/home.php');
-$router->route(GET, PAGE, '/addcar',   'pages/addcar.php');
+//Log in-------------------------------------------------------------------
+$router->route(GET, PAGE,  '/login',    'pages/login.php');
+$router->route(POST, HTMX, '/login',    'components/process-login.php');
 
-$router->route(GET, PAGE, '/messages', 'pages/messages.php');
+//Log out------------------------------------------------------------------
+$router->route(GET, PAGE,  '/logout',    'components/process-logout.php');
+
+//Sign-up Page-------------------------------------------------------------
+$router->route(GET, PAGE,  '/signup',   'pages/signup.php');
+$router->route(POST, HTMX, '/signup',   'components/process-signup.php');
+
+//Home Page----------------------------------------------------------------
+$router->route(GET, PAGE,  '/home',     'pages/home.php');
+
+//Add Car Page-------------------------------------------------------------
+$router->route(GET, PAGE,  '/addcar',   'pages/addcar.php');
+$router->route(POST, HTMX, '/addcar',   'components/process-addcar.php');
+
+//Messages-----------------------------------------------------------------
+$router->route(GET, PAGE, '/messages',  'pages/messages.php');
 
 
 //-------------------------------------------------------------
