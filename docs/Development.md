@@ -116,12 +116,19 @@ I also added some test data to the 'users' and 'cars' tables, and they are all w
 
 How user Feedback was acted upon.
 
-### DATE
+### 05/07/24
 
-Title of Progress
+Started on Website.
 
 
-Details of Project
+I've started on my assessment website, the user can log in, and out currently.
+
+Logged Out
+![Alt text](images/loggedout.png)
+
+Logged In
+![Alt text](images/loggedin.png)
+
 
 > User Feedback
 
