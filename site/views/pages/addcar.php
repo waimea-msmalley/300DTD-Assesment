@@ -11,22 +11,22 @@
         >
 
             <label>Year</label>
-            <input name="name" type="text" required>
+            <input name="year" type="text" required>
 
             <label>Make</label>
-            <input name="name" type="text" required>
+            <input name="make" type="text" required>
 
             <label>Model</label>
-            <input name="name" type="text" required>
+            <input name="model" type="text" required>
 
             <label>Picture of Car</label>
             <input name="image" type="file" value="image/" accept="image/*" required>
 
             <label>Description</label>
-            <input name="name" type="text" required>
+            <input name="descrip" type="text" required>
 
             <label>Price</label>
-            <input name="name" type="text" required>
+            <input name="price" type="text" required>
 
             <input type="submit" value="Add Car">
 
