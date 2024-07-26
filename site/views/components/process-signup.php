@@ -1,6 +1,5 @@
 <?php
 
-require 'lib/db.php';
 
 
 // Get data from form

@@ -9,6 +9,7 @@ if(empty($_POST) && empty($_FILES)) die ('There was a problem uploading the file
 
 //----------------------------------------------------------------------------
 // Get image data and type of uploaded file from the $_FILES super-global
+consoleLog($_FILES);
 
 [
     'data' => $imageData,
@@ -17,6 +18,7 @@ if(empty($_POST) && empty($_FILES)) die ('There was a problem uploading the file
 
 //----------------------------------------------------------------------------
 // Get other data from form via the $_POST super-global.
+consoleLog($_POST);
 
 $year = $_POST['year'];
 $make = $_POST['make'];
@@ -24,6 +26,7 @@ $model = $_POST['model'];
 $description = $_POST['descrip'];
 $price = $_POST['price'];
 
+$userid = $_SESSION['user']['id'];
 
 //----------------------------------------------------------------------------
 // Insert the thing data and image into the database
@@ -31,19 +34,19 @@ $price = $_POST['price'];
 $db = connectToDB();
 
 $query = 'INSERT INTO cars
-         (year, make, model, phototype, photodata, descrip, price) 
-         VALUES(?, ?, ?, ?, ?, ?, ?)';
+         (user, year, make, model, phototype, photodata, descrip, price) 
+         VALUES(?, ?, ?, ?, ?, ?, ?, ?)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$year, $make, $model, $description, $imageType, $imageData, $price]);
+    $stmt->execute([$userid, $year, $make, $model, $imageType, $imageData, $description, $price]);
 }
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB Upload');
+    consoleError($e->getMessage(), 'DB Upload');
     die('There was an error adding picture to the database');
 }
 
 //----------------------------------------------------------------------------
 // Back to see the new thing
 
-header("Location: index.php");
+header('hx-redirect: ' . SITE_BASE . '/home');

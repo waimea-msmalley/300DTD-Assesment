@@ -1,6 +1,5 @@
 <?php
 
-require 'lib/db.php';
 
 $user = $_POST['user'];
 $pass = $_POST['pass'];
@@ -23,6 +22,7 @@ if ($userData) {
         $_SESSION['user']['username'] = $userData['username'];
         $_SESSION['user']['forename'] = $userData['forename'];
         $_SESSION['user']['surname']  = $userData['surname'];
+        $_SESSION['user']['id']       = $userData['id'];
 
         header('HX-Redirect: '.SITE_BASE.'/home');
     }

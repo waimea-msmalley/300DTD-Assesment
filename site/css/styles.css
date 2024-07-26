@@ -85,3 +85,14 @@ article {
     min-height: 6rem;
 }
 
+
+
+/* CARS ----------------------------------------- */
+
+section#car-list article {
+    cursor: pointer;
+}
+
+section#car-list article:hover {
+    border-color: var(--pico-color-pumpkin);
+}

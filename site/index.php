@@ -4,6 +4,7 @@
 // Libraries
 require_once 'lib/debug.php';
 require_once 'lib/router.php';
+require_once 'lib/db.php';
 
 //-------------------------------------------------------------
 // Site Configuration
@@ -42,6 +43,7 @@ $router->route(POST, HTMX, '/signup',   'components/process-signup.php');
 
 //Home Page----------------------------------------------------------------
 $router->route(GET, PAGE,  '/home',     'pages/home.php');
+$router->route(GET, HTMX,  '/cars',     'components/list-cars.php');
 
 //Add Car Page-------------------------------------------------------------
 $router->route(GET, PAGE,  '/addcar',   'pages/addcar.php');

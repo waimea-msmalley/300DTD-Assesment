@@ -1,8 +1,13 @@
 <h1>Cars!</h1>
 
-<article>
+<section hx-get="/cars" hx-trigger="load" id="car-list">
     
-</article>
+</section>
 
+<?php
+
+consoleLog($_SESSION);
+
+?>
 
 

@@ -1,12 +1,11 @@
-<h1>Messages Inbox</h1>
+<h1>Message Inbox</h1>
 
-<article>
-    <section id="messages">
+<section hx-get="/message" hx-trigger="load" id="message-list">
+    
+</section>
 
-        <div
-            id="message-list"
-            hx-get="/message-list"
-            hx-trigger="load"
-        ></div>
-    </section>
-</article>
+<?php
+
+consoleLog($_SESSION);
+
+?>
