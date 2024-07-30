@@ -51,7 +51,10 @@ $router->route(POST, HTMX, '/addcar',   'components/process-addcar.php');
 
 //Messages-----------------------------------------------------------------
 $router->route(GET, PAGE, '/messages',  'pages/messages.php');
-
+$router->route(GET, HTMX, '/messages',  'components/list-messages.php');
+//Send Messages
+$router->route(GET, PAGE, '/sendmessages',  'pages/send-message.php');
+$router->route(GET, HTMX, '/sendmessages',  'components/process-sent-message.php');
 
 //-------------------------------------------------------------
 // Generate the required view

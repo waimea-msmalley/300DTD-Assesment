@@ -2,39 +2,49 @@
 
 <?php
     
+    $myId = $_SESSION['user']['id'];
+
     $db = connectToDB();
 
-    $query = ' SELECT id, year, make, model
-               FROM cars ORDER by price DESC';
+    $query = ' SELECT messages.datetime,
+                      messages.body,
+                      users.forename,
+                      users.surname
+               FROM messages
+               JOIN users ON messages.from = users.id
+               WHERE messages.to = ?
+               ORDER by datetime DESC';
 
     try{
         $stmt = $db->prepare($query);
-        $stmt->execute();
+        $stmt->execute([$myId]);
         $messages = $stmt->fetchAll();
     }
 
     catch (PDOException $e) {
-        consoleLog($e->getMessage(), 'DB Fetch Cars');
-        die('There was an error when getting cars from the database');
+        consoleLog($e->getMessage(), 'DB Fetch Messages');
+        die('There was an error when getting your messages from the database');
     }
 
-
-    foreach ($messages as $message) {
-        $previewURL = '/message/' . $message['id'];
-
-        echo '<article
-                hx-trigger="click"
-                hx-get="' . $previewURL . '"
-            >';
-        echo    $car ['year'];
-        echo ' ';
-        echo    $car['make'];
-        echo ' ';
-        echo    $car['model'];
-        echo   '<img src="/load-car-image.php?id=' . $car['id'] . '">';
-
-        echo '</article>';
+    if(!$messages) {
+        echo '<h3>No messages for you!</h3>';
     }
+    else {
 
+        foreach ($messages as $message) {
+
+            $timeStamp = new DateTimeImmutable($message['datetime']);
+            $messageTime = $timeStamp->format('d M Y \a\t g:ia');
+
+            echo '<article>';
+            echo    '<p>Sent: ' . $messageTime;
+            echo    '<p>From: ' . $message['forename'] . ' ' . $message['surname'];
+            echo    '<p>Message: ' . $message['body'];
+            echo '</article>';
+        }
+    }
+    
+    echo      '<a href="/sendmessages">';
+    echo      '<button>Send a Message</button>';
+    echo  '</a>';
 ?>
-//process-add-messages
