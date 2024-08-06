@@ -130,16 +130,14 @@ Logged In
 ![Alt text](images/loggedin.png)
 
 
-> User Feedback
+> User says this is a good start, and can't wait to give feedback when the site has more substance. 
 
-How user Feedback was acted upon.
+### 15/07/24
 
-### DATE
-
-Title of Progress
+Form for Adding Cars
 
 
-Details of Project
+I completed 
 
 > User Feedback
 

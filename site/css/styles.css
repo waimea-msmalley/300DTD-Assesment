@@ -1,8 +1,8 @@
 :root {
     --font-size:         1rem;
 
-    --border-color:      var(--pico-muted-border-color);
-    --accent-color:      var(--pico-color-pumpkin);
+    --border-color:      var(#009732);
+    --accent-color:      var(#0EC65A);
 
     --link-active-color: var(--accent-color);
 }
@@ -94,5 +94,5 @@ section#car-list article {
 }
 
 section#car-list article:hover {
-    border-color: var(--pico-color-pumpkin);
+    border-color: var(--border-color);
 }
