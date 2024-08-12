@@ -1,10 +1,11 @@
 :root {
     --font-size:         1rem;
 
-    --border-color:      var(#009732);
-    --accent-color:      var(#0EC65A);
+    --border-color:      #009732;
+    --accent-color:      #0EC65A;
+    --text-color:         black;
 
-    --link-active-color: var(--accent-color);
+    --link-active-color: #0EC65A;
 }
 
 
@@ -21,8 +22,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
     margin-bottom: 2rem;
+    background-color: var(--border-color);
+    border-bottom: 5rem;
 }
 
 #main-header > * {
@@ -41,7 +44,7 @@ body {
 
 #main-footer {
     text-align: center;
-    border-top: 1px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
     margin-top: 2rem;
 }
 
@@ -81,8 +84,10 @@ section {
 }
 
 article {
-    border: 1px solid var(--border-color);
+    /* border: 5px solid var(--border-color); */
     min-height: 6rem;
+    background-color: var(--border-color);
+    color: var(--text-color);
 }
 
 
