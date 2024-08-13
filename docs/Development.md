@@ -156,10 +156,10 @@ Form for Adding Cars
 
 I completed the form that allows the user to add cars to sell. and looks neat. the car information is added, and shows up on the home page as intended.
 
-About to add car
+About to add car in 
 ![Alt text](images/addingcar.png)
 
-Car Added
+View from Home page after car added.
 ![Alt text](images/caradded.png)
 
 > Looks good! Works well.
