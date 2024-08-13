@@ -34,4 +34,4 @@ else {
     echo '<h2>Invalid User!</h2>';
 }
 
-echo '<p> <a href="index.php">Home</a></p>';
+echo '<a role="button" href="/login/">Try again</a></p>';

@@ -20,13 +20,13 @@ consoleLog($_FILES);
 // Get other data from form via the $_POST super-global.
 consoleLog($_POST);
 
-$year = $_POST['year'];
-$make = $_POST['make'];
-$model = $_POST['model'];
+$year        = $_POST['year'];
+$make        = $_POST['make'];
+$model       = $_POST['model'];
 $description = $_POST['descrip'];
-$price = $_POST['price'];
+$price       = $_POST['price'];
 
-$userid = $_SESSION['user']['id'];
+$userid      = $_SESSION['user']['id'];
 
 //----------------------------------------------------------------------------
 // Insert the thing data and image into the database

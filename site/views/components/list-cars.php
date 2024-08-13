@@ -22,17 +22,18 @@
     foreach ($cars as $car) {
         $previewURL = '/car/' . $car['id'];
 
-        echo '<article
-                hx-trigger="click"
-                hx-get="' . $previewURL . '"
-            >';
-        echo    $car ['year'];
-        echo ' ';
-        echo    $car['make'];
-        echo ' ';
-        echo    $car['model'];
-        echo   '<img src="/load-car-image.php?id=' . $car['id'] . '">';
+        echo '<article>';
 
+        echo '<a href="'.$previewURL.'">';
+        echo    '<h2>';
+        echo    $car ['year'];
+        echo    ' ';
+        echo    $car['make'];
+        echo    ' ';
+        echo    $car['model'];
+        echo    '</h2>';
+        echo   '<img src="/load-car-image.php?id=' . $car['id'] . '">';
+        echo '</a>';
         echo '</article>';
     }
 

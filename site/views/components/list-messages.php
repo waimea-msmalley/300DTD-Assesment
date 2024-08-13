@@ -44,7 +44,3 @@
         }
     }
     
-    echo      '<a href="/sendmessages">';
-    echo      '<button>Send a Message</button>';
-    echo  '</a>';
-?>

@@ -4,13 +4,14 @@
     
     $db = connectToDB();
 
-    $query = ' SELECT id, year, make, model, descrip, price
-               FROM cars ORDER by price DESC';
+    $query = ' SELECT id, user, year, make, model, descrip, price
+               FROM cars 
+               WHERE id=?';
 
     try{
         $stmt = $db->prepare($query);
-        $stmt->execute();
-        $cars = $stmt->fetchAll();
+        $stmt->execute([$id]);   // Note, ID comes from router
+        $car = $stmt->fetch();
     }
 
     catch (PDOException $e) {
@@ -18,19 +19,16 @@
         die('There was an error when getting cars from the database');
     }
 
+        consoleLog($car);
 
-    foreach ($cars as $car) {
-        $previewURL = '/car/' . $car['id'];
-
-        echo '<article
-                hx-trigger="click"
-                hx-get="' . $previewURL . '"
-            >';
+        echo '<article>';
+        echo    '<h2>';
         echo    $car ['year'];
-        echo ' ';
+        echo    ' ';
         echo    $car['make'];
-        echo ' ';
+        echo    ' ';
         echo    $car['model'];
+        echo    '</h2>';
         echo   '<img src="/load-car-image.php?id=' . $car['id'] . '">';
         echo ' ';
         echo '</article>';
@@ -41,6 +39,7 @@
         echo    $car ['price'];
         echo ' ';
         echo '</article>';
-    }
+
+        echo '<a role="button" href="/message/'.$id.'">Message Owner About this Car<a>';
     
 ?>

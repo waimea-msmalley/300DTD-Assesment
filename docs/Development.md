@@ -132,16 +132,38 @@ Logged In
 
 > User says this is a good start, and can't wait to give feedback when the site has more substance. 
 
+### 12/07/24
+
+Colour Scheme (CSS)
+
+
+I had a play around with the style sheet. Seeing how the green looked and what needed to be changed to make it work with the page.
+
+Before Styles
+![Alt text](images/loggedout.png)
+
+After Styles
+![Alt text](images/afterstyles.png)
+
+> Good start. Definitely needs some work with the buttons and the spacing between some text.
+
+(How user Feedback was acted upon.)
+
 ### 15/07/24
 
 Form for Adding Cars
 
 
-I completed 
+I completed the form that allows the user to add cars to sell. and looks neat. the car information is added, and shows up on the home page as intended.
 
-> User Feedback
+About to add car
+![Alt text](images/addingcar.png)
 
-How user Feedback was acted upon.
+Car Added
+![Alt text](images/caradded.png)
+
+> Looks good! Works well.
+
 
 ### DATE
 

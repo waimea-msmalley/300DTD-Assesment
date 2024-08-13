@@ -53,11 +53,12 @@ $router->route(POST, HTMX, '/addcar',   'components/process-addcar.php');
 $router->route(GET, PAGE, '/messages',  'pages/messages.php');
 $router->route(GET, HTMX, '/messages',  'components/list-messages.php');
 //Send Messages
-$router->route(GET, PAGE, '/sendmessages',  'pages/send-message.php');
-$router->route(GET, HTMX, '/sendmessages',  'components/process-sent-message.php');
+$router->route(GET, PAGE, '/message/$carid',  'pages/send-message.php');
+$router->route(POST, HTMX, '/sendmessage',   'components/process-sent-message.php');
+
 
 //Car Info------------------------------------------------------------------
-$router->route(GET, PAGE, '/carinfo',  'pages/car-info.php');
+$router->route(GET, PAGE, '/car/$id',  'pages/car-info.php');
 
 //-------------------------------------------------------------
 // Generate the required view

@@ -84,7 +84,7 @@ section {
 }
 
 article {
-    /* border: 5px solid var(--border-color); */
+    border: 5px solid var(--border-color);
     min-height: 6rem;
     background-color: var(--border-color);
     color: var(--text-color);
@@ -94,10 +94,11 @@ article {
 
 /* CARS ----------------------------------------- */
 
-section#car-list article {
-    cursor: pointer;
+section#car-list article a {
+    display: block;
+    text-decoration: none;
 }
 
 section#car-list article:hover {
-    border-color: var(--border-color);
+    border-color: var(--accent-color);
 }
