@@ -4,6 +4,7 @@
     --border-color:      #009732;
     --accent-color:      #0EC65A;
     --text-color:         black;
+    --background-color:   rgb(29, 34, 39);
 
     --link-active-color: #0EC65A;
 }
@@ -13,7 +14,19 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: var(--background-color);
 }
+
+button {
+    background-color: var(--border-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+/* h1{
+    color: var(--text-color);
+} */
+
 
 
 /* HEADER ---------------------------------------- */
@@ -37,6 +50,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: inherit;
+}
+
+#main-header a{
+    color: var(--text-color);
 }
 
 
@@ -87,6 +104,10 @@ article {
     border: 5px solid var(--border-color);
     min-height: 6rem;
     background-color: var(--border-color);
+    color: var(--text-color);
+}
+
+article h1{
     color: var(--text-color);
 }
 

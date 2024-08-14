@@ -4,22 +4,23 @@
 
 consoleLog($_POST);
 
-$userid = $_POST['id'];
-$body   = $_POST['body']
+$recipientId = $_POST['userid'];
+$body   = $_POST['body'];
 
 // get your id from session (from)
 
-$userid = $_SESSION['user']['id'];
+$senderId = $_SESSION['user']['id'];
 
 // do an INSERT into messages table
+$db = connectToDB();
 
 $query = 'INSERT INTO messages
-         (id, from, to, datetime, body) 
-         VALUES(?, ?, ?, ?, ?,)';
+         (`from`, `to`, `body`) 
+         VALUES(?, ?, ?)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$id, $from, $to, $datetime, $body]);
+    $stmt->execute([$senderId, $recipientId, $body]);
 }
 catch (PDOException $e) {
     consoleError($e->getMessage(), 'DB Upload Message');
