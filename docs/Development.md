@@ -147,7 +147,12 @@ After Styles
 
 > Good start. Definitely needs some work with the buttons and the spacing between some text.
 
-(How user Feedback was acted upon.)
+Upon editing, I found out that on a light themed device, the background of the web site also inherits that light colour theme(How user Feedback was acted upon.)
+
+Before fix:
+
+
+After fix:(Still white device theme)
 
 ### 15/07/24
 
@@ -165,9 +170,9 @@ View from Home page after car added.
 > Looks good! Works well.
 
 
-### DATE
+### 17/07/24
 
-Title of Progress
+Log out/
 
 
 Details of Project
