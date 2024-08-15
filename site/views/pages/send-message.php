@@ -40,6 +40,6 @@
     <label>Compose Message</label>
     <input name="body" type="text" required>
 
-    <input type="submit" value="Send Message">
+    <input id=button type="submit" value="Send Message">
     
 </form>

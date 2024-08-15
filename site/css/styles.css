@@ -1,12 +1,13 @@
 :root {
     --font-size:         1rem;
 
-    --border-color:      #009732;
-    --accent-color:      #0EC65A;
+    --border-color:       #009732;
+    --accent-color:       #0EC65A;
     --text-color:         black;
+    --h1-color:           white;
     --background-color:   rgb(29, 34, 39);
 
-    --link-active-color: #0EC65A;
+    --link-active-color:  #0EC65A;
 }
 
 
@@ -23,12 +24,25 @@ button {
     border-color: var(--text-color);
 }
 
-/* h1{
-    color: var(--text-color);
-} */
+h1{
+    color: var(--h1-color);
+}
 
+h2{
+    color: var(--h1-color);
+}
 
+h3{
+    color: var(--h1-color);
+}
 
+/* IMAGES ---------------------------------------- */
+
+img {
+    border: 2px solid white;    
+}
+
+  
 /* HEADER ---------------------------------------- */
 
 #main-header {
@@ -111,7 +125,25 @@ article h1{
     color: var(--text-color);
 }
 
+form #button {
+    background-color: var(--text-color);
+    color: var(--h1-color);
+    border-color: var(--text-color);
+}
 
+#button{
+    background-color: var(--text-color);
+    color: var(--h1-color);
+    border-color: var(--text-color);
+}
+
+label {
+    color: var(--h1-color);
+}
+
+article h1{
+    text-align: center;
+}
 
 /* CARS ----------------------------------------- */
 

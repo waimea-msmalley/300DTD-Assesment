@@ -35,11 +35,11 @@
 
         echo '<article>';
         echo    $car ['descrip'];
-        echo ' ';
-        echo    $car ['price'];
+        echo ' <br>';
+        echo    '<strong>$' . number_format($car ['price']) . '</strong>';
         echo ' ';
         echo '</article>';
 
-        echo '<a role="button" href="/message/'.$id.'">Message Owner About this Car<a>';
+        echo '<a id=button role="button" href="/message/'.$id.'">Message Owner About this Car<a>';
     
 ?>

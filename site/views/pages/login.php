@@ -6,11 +6,11 @@
 >
 
     <label>Username</label>
-    <input name="user" type="text" required>
+    <input id=formtext name="user" type="text" required>
 
     <label>Password</label>
-    <input name="pass" type="password" required>
+    <input id=formtext name="pass" type="password" required>
 
-    <input type="submit" value="Login">
+    <input id=button type="submit" value="Login">
     
 </form>
