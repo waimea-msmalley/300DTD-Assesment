@@ -6,13 +6,11 @@
     <?php require '_head.php'; ?>
 
     <body>
-        
         <?php require '_header.php'; ?>
 
         <main>
-
             <?php require $pageContent; ?>
-        
+
         </main>
 
         <?php require '_footer.php'; ?>   

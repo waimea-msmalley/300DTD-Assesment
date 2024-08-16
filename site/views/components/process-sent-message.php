@@ -22,6 +22,7 @@ try {
     $stmt = $db->prepare($query);
     $stmt->execute([$senderId, $recipientId, $body]);
 }
+//Error Message in case there is an issue
 catch (PDOException $e) {
     consoleError($e->getMessage(), 'DB Upload Message');
     die('There was an error adding your message to the database');

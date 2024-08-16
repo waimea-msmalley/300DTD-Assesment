@@ -1,28 +1,25 @@
 <?php
+    // Extract user from database
 
+    $db = connectToDB();
 
+    $query  = 'SELECT cars.user,
+                        users.forename,
+                        users.surname
+    FROM cars
+    JOIN users ON cars.user = users.id
+    WHERE cars.id=?';
 
-        // Extract user from database
-        
-        $db = connectToDB();
-    
-        $query  = 'SELECT cars.user,
-                            users.forename,
-                            users.surname
-        FROM cars
-        JOIN users ON cars.user = users.id
-        WHERE cars.id=?';
-    
-        try{
-            $stmt = $db->prepare($query);
-            $stmt->execute([$carid]);    // Car ID comes via router
-            $user = $stmt->fetch();
-        }
-    
-        catch (PDOException $e) {
-            consoleLog($e->getMessage(), 'DB Fetch Users');
-            die('There was an error when getting users from the database');
-        }
+    try{
+        $stmt = $db->prepare($query);
+        $stmt->execute([$carid]);    // Car ID comes via router
+        $user = $stmt->fetch();
+    }
+
+    catch (PDOException $e) {
+        consoleLog($e->getMessage(), 'DB Fetch Users');
+        die('There was an error when getting users from the database');
+}
     
     
 ?>

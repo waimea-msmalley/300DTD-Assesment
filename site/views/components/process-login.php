@@ -1,9 +1,10 @@
 <?php
 
-
+//Defining Variables
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 
+//Connecting to DB
 $db = connectToDB();
 
 $query = 'SELECT * FROM users WHERE username = ?';
@@ -15,6 +16,7 @@ $userData = $stmt->fetch();
 
 consoleLog($userData, 'DB Data');
 
+//Verifying Username and Password with the DB
 if ($userData) {
     if (password_verify($pass, $userData['hash'])){
         $_SESSION['user']['loggedIn'] = true;
@@ -33,5 +35,3 @@ if ($userData) {
 else {
     echo '<h2>Invalid User!</h2>';
 }
-
-echo '<a role="button" href="/login/">Try again</a></p>';

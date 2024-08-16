@@ -1,7 +1,5 @@
 <?php
 
-
-
 // Get data from form
 $fore = $_POST['forename'];
 $sur  = $_POST['surname'];
@@ -20,4 +18,3 @@ $stmt = $db->prepare($query);
 $stmt->execute([$fore, $sur, $user, $hash]);
 
 echo '<h2>Account Created!</h2>';
-echo '<a role="button" href="/login/">Sign in<a>';

@@ -24,17 +24,33 @@ button {
     border-color: var(--text-color);
 }
 
+[role=button] {
+    background-color: var(--border-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
 h1{
     color: var(--h1-color);
 }
 
 h2{
-    color: var(--h1-color);
+    color: var(--text-color);
+
 }
 
 h3{
     color: var(--h1-color);
 }
+
+div.centre {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
 
 /* IMAGES ---------------------------------------- */
 
@@ -131,6 +147,10 @@ form #button {
     border-color: var(--text-color);
 }
 
+input[type=file] {
+    color: inherit;
+}
+
 #button{
     background-color: var(--text-color);
     color: var(--h1-color);
@@ -138,11 +158,15 @@ form #button {
 }
 
 label {
-    color: var(--h1-color);
+    color: var(--text-color);
 }
 
 article h1{
     text-align: center;
+}
+
+input #file-upload-button{
+    background-color: var(--text-color);
 }
 
 /* CARS ----------------------------------------- */

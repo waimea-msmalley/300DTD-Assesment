@@ -2,11 +2,7 @@
     <H1>Welcome to MotiveAuto!</H1>
 </article>
 
-<a href="/login">
-    <button>Log In</button>
- </a>
-<h3>or</h3>
-
-<a href="/signup">
-    <button>Sign Up</button>
- </a>
+<div class="centre">
+    <a href="/login" role="button">Log In</a> or
+    <a href="/signup" role="button">Sign Up</a>    
+</div>

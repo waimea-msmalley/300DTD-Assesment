@@ -3,6 +3,7 @@
     global $loggedIn;
 ?>
 
+<!-- Showing links in header -->
 <nav id="main-nav">
 
     <menu hx-boost="true">

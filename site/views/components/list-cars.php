@@ -1,9 +1,10 @@
 <!-- Generate a list of things, e.g. from a database -->
 
 <?php
-    
+    //Connecting to DB
     $db = connectToDB();
 
+    //Selecting required fields from database
     $query = ' SELECT id, year, make, model
                FROM cars ORDER by price DESC';
 
@@ -13,12 +14,13 @@
         $cars = $stmt->fetchAll();
     }
 
+    //Error message in case of issue
     catch (PDOException $e) {
         consoleLog($e->getMessage(), 'DB Fetch Cars');
         die('There was an error when getting cars from the database');
     }
 
-
+    //Showing Car information from DB
     foreach ($cars as $car) {
         $previewURL = '/car/' . $car['id'];
 

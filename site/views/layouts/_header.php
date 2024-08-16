@@ -4,19 +4,12 @@
 
     <a href="/home"><?= SITE_NAME ?></a>
     
-    <a href="/home"><?= SITE_NAME ?></a>
-
     <?php require '_nav.php'; ?>
 
     <?php if ($loggedIn) {
     echo '<p>Hello, ' . $_SESSION['user']['forename'] . '</p>';
-<<<<<<< HEAD
-    }
-=======
 }
 
->>>>>>> 942a018ace9368bfddeed3a5640f86014cca1366
 ?>
-
 </header>
 

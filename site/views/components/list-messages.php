@@ -2,8 +2,10 @@
 
 <?php
     
+    //Getting user id from the session
     $myId = $_SESSION['user']['id'];
 
+    //Connecting to DB
     $db = connectToDB();
 
     $query = ' SELECT messages.datetime,
@@ -20,15 +22,16 @@
         $stmt->execute([$myId]);
         $messages = $stmt->fetchAll();
     }
-
+//Error message in case of an issue
     catch (PDOException $e) {
         consoleLog($e->getMessage(), 'DB Fetch Messages');
         die('There was an error when getting your messages from the database');
     }
-
+//If there are no messages
     if(!$messages) {
         echo '<h3>No messages for you!</h3>';
     }
+//If there is messages, show from database
     else {
 
         foreach ($messages as $message) {
