@@ -61,7 +61,7 @@ I think I will need to make the navigation tab a little larger in the coded vers
 
 Colour Scheme
 
-This is the scheme I liked the most after testing some out. I shall see what my end user says.
+This is the scheme I liked the most after testing some out. I shall see what my end user says. Having a colour scheme that the end user likes in important factor for the Aesthetic heristic.
 ![Alt text](images/colour.png)
 
 > End user was much happier with the darker colour as apposed to the white, grey and black. They were also a big fan of the green.
@@ -152,7 +152,7 @@ Upon editing, I found out that on a light themed device, the background of the w
 Before fix:
 
 
-After fix:(Still white device theme)
+After fix: (Still white device theme)
 
 ### 15/07/24
 
@@ -172,7 +172,7 @@ View from Home page after car added.
 
 ### 17/07/24
 
-Log out/
+
 
 
 Details of Project
