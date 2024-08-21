@@ -40,7 +40,7 @@ Started on Website Design using Figma
 This is the first draft of what the front end of the home page of my website will look like. I will most definitely add to this, but I will get the end-user to give me tips on what to add.  
 ![Alt text](images/figmav1.png)
 
-> End user wanted a search bar so they could search for cars that was, instead of jst scrolling in hope of finding the car they want. He also said that a darker colour scheme with highlights would be better than the black, white and grey.
+> End user wanted a search bar so they could search for cars that was, instead of just scrolling in hope of finding the car they want. He also said that a darker colour scheme with highlights would be better than the black, white and grey.
 
 Search bar was added, I shall look at colours later down the track.
 
@@ -145,7 +145,7 @@ Before Styles
 After Styles
 ![Alt text](images/afterstyles.png)
 
-> Good start. Definitely needs some work with the buttons and the spacing between some text.
+> "Good start. Definitely needs some work with the buttons and the spacing between some text."
 
 Upon editing, I found out that on a light themed device, the background of the web site also inherits that light colour theme (How user Feedback was acted upon.)
 
@@ -190,7 +190,7 @@ About to add car in
 View from Home page after car added.
 ![Alt text](images/caradded.png)
 
-> It looks good, and it does it's job. Could you change the colour of the text that shows you what file you've chosen, it doesn't work well with the green.
+> "It looks good, and it does it's job. Could you change the colour of the text that shows you what file you've chosen, it doesn't work well with the green."
 
 I changed the colour of the text that my end user wanted, and I think it looks much better.
 
@@ -201,17 +201,34 @@ After Change:
 
 ![alt text](images/aftertext.png)
 
-> Yes, much better. My eyes like that much better.
+> "Yes, better. My eyes like that."
 
 ### 17/07/24
 
 Sending/Recieving Messages
 
-If the End-User decides they want to buy the car, there is a button down the bottom of the Car information Page that...
+If the End-User decides they want to buy the car, there is a button down the bottom of the Car information Page that redirects the user to a page where they can send the owner a message to say that they are interested. 
 
-> User Feedback
+First Page Design:
+![alt text](images/firstmessage.png)
 
-How user Feedback was acted upon.
+Message Sent:
+![alt text](images/firstsentmessage.png)
+
+Message Received:
+![alt text](images/messageseen.png)
+
+> "Well, The code does what it is meant to. But the smaller text colour on the page you use to send messages is extremely hard to read, fix that please."
+
+I changed the text colour to white instead of black, and it is much easier to read. 
+
+Page with white text:
+
+
+Message sent with white text:
+
+
+>"Yep, that's much better." 
 
 ### 16/08/24
 
