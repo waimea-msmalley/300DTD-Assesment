@@ -147,12 +147,35 @@ After Styles
 
 > Good start. Definitely needs some work with the buttons and the spacing between some text.
 
-Upon editing, I found out that on a light themed device, the background of the web site also inherits that light colour theme(How user Feedback was acted upon.)
+Upon editing, I found out that on a light themed device, the background of the web site also inherits that light colour theme (How user Feedback was acted upon.)
 
 Before fix:
 
 
 After fix: (Still white device theme)
+
+### 14/07/24
+
+Home Page/Seeing Car information
+
+
+The home page in the main page that users will look at. It is where all the different cars that are for sale will show up and can be viewed and interacted with by the viewer. The user can click on the cars and see extra information about it, including the ablity to contact the owner if you are interested in buying it.
+
+Home Page Design:
+
+
+Car information Page:
+
+
+> User Feedback
+
+How user Feedback was acted upon.
+
+Final Home Page design:
+![alt text](images/finalhome.png)
+
+Final Car Information Page design:
+![alt text](images/finalcarinfo.png)
 
 ### 15/07/24
 
@@ -167,15 +190,24 @@ About to add car in
 View from Home page after car added.
 ![Alt text](images/caradded.png)
 
-> Looks good! Works well.
+> It looks good, and it does it's job. Could you change the colour of the text that shows you what file you've chosen, it doesn't work well with the green.
 
+I changed the colour of the text that my end user wanted, and I think it looks much better.
+
+Before Change:
+![alt text](images/beforetext.png)
+
+After Change:
+
+![alt text](images/aftertext.png)
+
+> Yes, much better. My eyes like that much better.
 
 ### 17/07/24
 
+Sending/Recieving Messages
 
-
-
-Details of Project
+If the End-User decides they want to buy the car, there is a button down the bottom of the Car information Page that...
 
 > User Feedback
 
