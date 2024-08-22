@@ -45,7 +45,6 @@ It is important to have a website that works, well and is easy to use, since a g
 To cater for those that are less experienced with tech using this website, I will make sure that navigation throughout my website will be easy. I will insure this by using:
 - Have the design of the website simple and minimalistic
 - Make Page transitions smooth
-- Make sure to test for bugs constantly
 
 ### Aesthetic Implications
 
@@ -73,10 +72,9 @@ Things I will need to consider moving forward is:
 
 The accessibility implications of a digital technology or digital outcome (e.g. a website) involve ensuring it is available to, and can be used by, all end-users, regardless of their abilities.
 
-Making sure this website is accessible for all uses is a must. To insure this, I will make sure that the site is comparable with both personal computers, and touchscreen devices such at tablets and mobile phones. I will also make sure that my website doesn't rely on heavily on red/green colours so those who are colour-blind won't be impaired while using my site.
+Making sure this website is accessible for all uses is a must. To insure this, I will make sure that my website doesn't rely on heavily on red/green colours so those who are colour-blind won't be impaired while using my site.
 
 Things I will need to consider moving forward for this implication is: 
-- Make site usable on all devices
 - Accessible for the colour-blind
 - Have good colours and fonts.
 
@@ -170,22 +168,92 @@ My interface meets the need of my end users very well. I stated that the end use
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+My interface meets the system requirements effectively. A list I made at the start of this process states that my interface needs to have:
+- Make an account on the website.
+- Be able to sign in and out of the website.
+- Be able to list cars, with a photo and information about said car.
+- When viewing the car, be able to send a message to the owner, asking questions, or making an offer.
+- Each user will have an inbox where they can receive these questions and offers on their vehicles.
 
-My interface meets the system requirements 
+The end product caters to every single one of those requirements, with good funtionality. 
 
-### Review of IMPLICATION NAME HERE
+### Review of Funtionality
+
+In my Funtionality needs, I stated I needed to:
+- Have the design of the website simple and minimalistic
+- Make Page transitions smooth
+
+Looking at the home page of my website, I (and my end user) thinks that the interface is minimalistic and simple. It isn't in your face, and is very self explanatory.
+
+The page transitions are very smooth, because of the use of HTMX Routing. Reloading the page is rarely seen in this interface, and most of the functionality happens on a single page. You will be able to see this in the funtionality video I linked earlier in the document.
+
+Home page:
+
+![](images/finalHP.png)
+
+### Review of Aesthetic
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+For my Aesthetic needs, I stated I needed to:
+- Having a good colour scheme
+- Getting a good font that works well with said colour scheme
+- Having the content of the page laid out well
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+The colour scheme I used on my interface is not hard on eyes at all, is very easy to look at and works well with the content on the page. The font in used is a very basic one nothing fancy and simplistic, so that it works well with the colour scheme. The contents of the page are well spaced, centered and don't affect the expereince. 
 
-### Review of IMPLICATION NAME HERE
+Final colour scheme
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+![](images/newscheme.png)
 
+Home Page:
+
+![](images/finalHP.png)
+
+### Review of Accessibility
+
+For my Accessibility needs, I stated I needed:
+
+
+### Review of End-User
+
+For my End-User needs, I stated I needed to:
+- Making the UX very easy, and not complex.
+- Use cool, masculine type colours
+- Make sure the site is appealing
+
+As you can see from the funtionality video, The UX flows very nicely, and doesn't look clunky at all. I ended up using cool, masculine colours for the interface and they have turned out good, and work very well to make the interface look appealing.
+
+Final colour scheme
+
+![](images/newscheme.png)
+
+### Review of Accessibility
+
+For my Accessibility needs, I stated I needed:
+- Accessible for the colour-blind
+- Have good colours and fonts.
+
+Althought the main colour of my website is green, none of the website's funtionality is dependant on the colour, (for example, if you have selected something, it turns green and it's red if you haven't selected it) and therefore, the website's overall funtionality is not effected. as stated before, the colours and fonts in the interface work well together, and do not clash.
+
+Final colour scheme
+
+![](images/newscheme.png)
+
+
+### Review of Privacy
+
+For my Accessibility needs, I stated I needed:
+- Hashing users passwords for security purposes
+- Making an account should be simple and easy
+
+The process of making an account in the interface is extreamly easy, and straightforward. 
+
+Creating a Login:
+![alt text](image.png)
+
+Details in Database and password Hashed:
+![alt text](images/hashed.png)
 ### Review of UX PRINCIPLE NAME HERE
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
