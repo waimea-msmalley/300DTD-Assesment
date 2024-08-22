@@ -100,8 +100,7 @@ Reflect real-world experiences.
 Make the UI similar to other browsing/shopping apps to insure familiarity.
 
 Things I will need to consider moving forward for this implication is: 
-- Using drop-down menus
-- Using check boxes
+- Using navigation that is at the top of the page
 - Having an image to show the car
 
 ###  Consistency and Standards
@@ -193,8 +192,6 @@ Home page:
 
 ### Review of Aesthetic
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
 For my Aesthetic needs, I stated I needed to:
 - Having a good colour scheme
 - Getting a good font that works well with said colour scheme
@@ -209,10 +206,6 @@ Final colour scheme
 Home Page:
 
 ![](images/finalHP.png)
-
-### Review of Accessibility
-
-For my Accessibility needs, I stated I needed:
 
 
 ### Review of End-User
@@ -247,22 +240,51 @@ For my Accessibility needs, I stated I needed:
 - Hashing users passwords for security purposes
 - Making an account should be simple and easy
 
-The process of making an account in the interface is extreamly easy, and straightforward. 
+The process of making an account in the interface is extreamly easy, and straightforward. When the account is make, it is stored in a secure database and the passwords are hashed for extra security. 
 
 Creating a Login:
-![alt text](image.png)
+![alt text](images/makinglogin.png)
 
 Details in Database and password Hashed:
 ![alt text](images/hashed.png)
-### Review of UX PRINCIPLE NAME HERE
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Match Between System and the Real World
 
-### Review of UX PRINCIPLE NAME HERE
+For my Match Between System and the Real World needs, I stated I needed to be:
+- Using navigation that is at the top of the page
+- Having an image to show the car
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I incorperated both of these needs into the interface, by having the navigation bar at the top of the screen where it can easly be seen and used, and I am showing pictures of cars on the home page similar to other auto trading websites like AutoTrader and Trade Me to insure maximum familiarity.
 
-### Review of UX PRINCIPLE NAME HERE
+Home page showing Navigation and Car Images:
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+![](images/finalHP.png)
 
+### Review of Consistency and Standards
+
+For my Consistency and Standards needs, I stated I needed to have:
+- Text that is easy to read for navigation.
+- Have all the navigation on the top of the screen, or in a dropdown menu.
+
+As shown, you can see that the navigation is at the top of the screen, and the text is a good size, evenly spaced and therefore easy to read, and accessable. 
+
+Home page showing Navigation and Text:
+
+![](images/finalHP.png)
+
+### Review of Aesthetic and Minimalist Design
+
+For my Aesthetic and Minimalist Design, I stated I needed to be:
+- Only showing important information on the screen
+- Making sure that adding cars to the database is not complicated/extensive
+- Making sure navigating is not overwhelming.
+
+When coding my interface, I made sure to only have essential information in all the pages/screens to insure maximum accessablity for all ages, part of which was making the navigation not overwhelming. The process of adding a car to the database is very easy, and once again, only asks for what is absolutley necessary.
+
+Home page:
+
+![](images/finalHP.png)
+
+Add Car Page:
+
+![Alt text](images/addingcar.png)
