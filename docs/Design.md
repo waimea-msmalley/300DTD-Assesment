@@ -114,7 +114,7 @@ In general, place menus at the top or left-side, use standard icons for home, et
 I'll make the navigation easy to see, read, and use icons that are familiar and are very self-explanatory.
 
 I'll use things like:
-- A house icon to go back to the home page
+- Text that is easy to read for navigation.
 - Have all the navigation on the top of the screen, or in a dropdown menu.
 
 ### Aesthetic and Minimalist Design
@@ -134,24 +134,30 @@ I'll do this by:
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![](images/db.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+Final Homepage Design:
 
+![alt text](images/finalHP.png)
 
+Final Colour Scheme:
+
+![alt text](images/newscheme.png)
 -------------------------------------------------
 
 ## Completed System
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![alt text](images/finaldb.png)
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+Here is a video of my testing the functionality of my website: 
+
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 -------------------------------------------------
@@ -160,11 +166,13 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+My interface meets the need of my end users very well. I stated that the end users need to sell their cars they have, and need to see a list of cars that are available to them, and be about to have a way to contact the buyer with an offer for a car they want. My inferface offers answers to both those needs and they work well, and the end users can access them with ease.
 
 ### Meeting the System Requirements
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+
+My interface meets the system requirements 
 
 ### Review of IMPLICATION NAME HERE
 

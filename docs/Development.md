@@ -230,12 +230,6 @@ Message sent with white text:
 
 >"Yep, that's much better." 
 
-### 16/08/24
-
-Functionality Test
-
-Here is a video of my testing the functionality of my website: https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
 
 ### DATE
 
