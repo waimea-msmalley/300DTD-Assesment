@@ -151,31 +151,40 @@ Upon editing, I found out that on a light themed device, the background of the w
 
 Before fix:
 
+![Alt text](images/whitetheme1.png)
 
 After fix: (Still white device theme)
+
+![Alt text](images/whitetheme2.png)
 
 ### 14/07/24
 
 Home Page/Seeing Car information
 
-
-The home page in the main page that users will look at. It is where all the different cars that are for sale will show up and can be viewed and interacted with by the viewer. The user can click on the cars and see extra information about it, including the ablity to contact the owner if you are interested in buying it.
+The home page in the main page that users will look at. It is where all the different cars that are for sale will show up and can be viewed and interacted with by the viewer. The user can click on the cars and see extra information about it, including the ability to contact the owner if you are interested in buying it.
 
 Home Page Design:
 
+![Alt text](images/firsthome.png)
 
 Car information Page:
 
+![Alt text](images/firstcarinfo.png)
 
-> User Feedback
+
+> I don't like the two text colours, I think pick one or the other. And maybe a border around the image of the same colour?
 
 How user Feedback was acted upon.
 
 Final Home Page design:
-![alt text](images/finalhome.png)
+
+![Alt text](images/finalhome.png)
 
 Final Car Information Page design:
-![alt text](images/finalcarinfo.png)
+
+![Alt text](images/finalcarinfo.png)
+
+> Yeah, I like that better!
 
 ### 15/07/24
 
@@ -185,9 +194,11 @@ Form for Adding Cars
 I completed the form that allows the user to add cars to sell. and looks neat. the car information is added, and shows up on the home page as intended.
 
 About to add car in 
+
 ![Alt text](images/addingcar.png)
 
 View from Home page after car added.
+
 ![Alt text](images/caradded.png)
 
 > "It looks good, and it does it's job. Could you change the colour of the text that shows you what file you've chosen, it doesn't work well with the green."
@@ -195,6 +206,7 @@ View from Home page after car added.
 I changed the colour of the text that my end user wanted, and I think it looks much better.
 
 Before Change:
+
 ![alt text](images/beforetext.png)
 
 After Change:
@@ -210,12 +222,15 @@ Sending/Recieving Messages
 If the End-User decides they want to buy the car, there is a button down the bottom of the Car information Page that redirects the user to a page where they can send the owner a message to say that they are interested. 
 
 First Page Design:
+
 ![alt text](images/firstmessage.png)
 
 Message Sent:
+
 ![alt text](images/firstsentmessage.png)
 
 Message Received:
+
 ![alt text](images/messageseen.png)
 
 > "Well, The code does what it is meant to. But the smaller text colour on the page you use to send messages is extremely hard to read, fix that please."
@@ -224,47 +239,41 @@ I changed the text colour to white instead of black, and it is much easier to re
 
 Page with white text:
 
+![Alt text](images/finalsentmessage.png)
 
 Message sent with white text:
 
+![Alt text](images/finalmessagesent.png)
 
 >"Yep, that's much better." 
 
+### 23/8/24
 
-### DATE
+HTML Validation
 
-Title of Progress
+Here I am validating the code for the Welcome page of my website. To make sure there is no holes in my code and I have codded it all properly. If you look at the Screenshot, it says there is a message hidden. That is a line of HTMX Routing, and the validator doesn't like that for some reason.
 
+Validation results from Welcome Page:
 
-Details of Project
+![Alt text](images/validate.png)
 
-> User Feedback
+### 23/8/24
 
-How user Feedback was acted upon.
+Site Finished/Functionality video
 
-### DATE
+Here is a video of my testing the functionality of my website. In the video you will see me:
 
-Title of Progress
+-Signing in/Logging out
+-Using the Navigation
+-Adding a Car to the Database
+-Viewing a car
+-Sending a message to an owner
+-Logging into the owners account and viewing the message we sent him
 
-
-Details of Project
-
-> User Feedback
-
-How user Feedback was acted upon.
-
-### DATE
-
-Title of Progress
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
-Details of Project
-
-> User Feedback
-
-How user Feedback was acted upon.
-
-### DATE
+<!-- ### DATE
 
 Title of Progress
 
@@ -273,27 +282,7 @@ Details of Project
 
 > User Feedback
 
-How user Feedback was acted upon.
-
-### DATE
-
-Title of Progress
+How user Feedback was acted upon. -->
 
 
-Details of Project
-
-> User Feedback
-
-How user Feedback was acted upon.
-
-### DATE
-
-Title of Progress
-
-
-Details of Project
-
-> User Feedback
-
-How user Feedback was acted upon.
 

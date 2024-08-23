@@ -137,7 +137,7 @@ I'll do this by:
 
 Final Homepage Design:
 
-![alt text](images/finalHP.png)
+![alt text](images/newui.png)
 
 Final Colour Scheme:
 
@@ -152,18 +152,20 @@ Final Colour Scheme:
 
 ### User Interface Design
 
-Here is a video of my testing the functionality of my website: 
+Home Page
 
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+![](images/finalhome.png)
 
+View Car
 
+![](images/finalcarinfo.png)
 -------------------------------------------------
 
 ## Review and Evaluation
 
 ### Meeting the Needs of the Users
 
-My interface meets the need of my end users very well. I stated that the end users need to sell their cars they have, and need to see a list of cars that are available to them, and be about to have a way to contact the buyer with an offer for a car they want. My inferface offers answers to both those needs and they work well, and the end users can access them with ease.
+My interface meets the need of my end users very well. I stated that the end users need to sell their cars they have, and need to see a list of cars that are available to them, and be about to have a way to contact the buyer with an offer for a car they want. My interface offers answers to both those needs and they work well, and the end users can access them with ease.
 
 ### Meeting the System Requirements
 
@@ -174,17 +176,17 @@ My interface meets the system requirements effectively. A list I made at the sta
 - When viewing the car, be able to send a message to the owner, asking questions, or making an offer.
 - Each user will have an inbox where they can receive these questions and offers on their vehicles.
 
-The end product caters to every single one of those requirements, with good funtionality. 
+The end product caters to every single one of those requirements, with good functionality. 
 
-### Review of Funtionality
+### Review of Functionality
 
-In my Funtionality needs, I stated I needed to:
+In my Functionality needs, I stated I needed to:
 - Have the design of the website simple and minimalistic
 - Make Page transitions smooth
 
 Looking at the home page of my website, I (and my end user) thinks that the interface is minimalistic and simple. It isn't in your face, and is very self explanatory.
 
-The page transitions are very smooth, because of the use of HTMX Routing. Reloading the page is rarely seen in this interface, and most of the functionality happens on a single page. You will be able to see this in the funtionality video I linked earlier in the document.
+The page transitions are very smooth, because of the use of HTMX Routing. Reloading the page is rarely seen in this interface, and most of the functionality happens on a single page. You will be able to see this in the functionality video I linked earlier in the document.
 
 Home page:
 
@@ -197,7 +199,7 @@ For my Aesthetic needs, I stated I needed to:
 - Getting a good font that works well with said colour scheme
 - Having the content of the page laid out well
 
-The colour scheme I used on my interface is not hard on eyes at all, is very easy to look at and works well with the content on the page. The font in used is a very basic one nothing fancy and simplistic, so that it works well with the colour scheme. The contents of the page are well spaced, centered and don't affect the expereince. 
+The colour scheme I used on my interface is not hard on eyes at all, is very easy to look at and works well with the content on the page. The font in used is a very basic one nothing fancy and simplistic, so that it works well with the colour scheme. The contents of the page are well spaced, centred and don't affect the experience. 
 
 Final colour scheme
 
@@ -215,7 +217,7 @@ For my End-User needs, I stated I needed to:
 - Use cool, masculine type colours
 - Make sure the site is appealing
 
-As you can see from the funtionality video, The UX flows very nicely, and doesn't look clunky at all. I ended up using cool, masculine colours for the interface and they have turned out good, and work very well to make the interface look appealing.
+As you can see from the functionality video, The UX flows very nicely, and doesn't look clunky at all. I ended up using cool, masculine colours for the interface and they have turned out good, and work very well to make the interface look appealing.
 
 Final colour scheme
 
@@ -227,7 +229,7 @@ For my Accessibility needs, I stated I needed:
 - Accessible for the colour-blind
 - Have good colours and fonts.
 
-Althought the main colour of my website is green, none of the website's funtionality is dependant on the colour, (for example, if you have selected something, it turns green and it's red if you haven't selected it) and therefore, the website's overall funtionality is not effected. as stated before, the colours and fonts in the interface work well together, and do not clash.
+Although the main colour of my website is green, none of the website's functionality is dependant on the colour, (for example, if you have selected something, it turns green and it's red if you haven't selected it) and therefore, the website's overall functionality is not effected. as stated before, the colours and fonts in the interface work well together, and do not clash.
 
 Final colour scheme
 
@@ -240,7 +242,7 @@ For my Accessibility needs, I stated I needed:
 - Hashing users passwords for security purposes
 - Making an account should be simple and easy
 
-The process of making an account in the interface is extreamly easy, and straightforward. When the account is make, it is stored in a secure database and the passwords are hashed for extra security. 
+The process of making an account in the interface is extremely easy, and straightforward. When the account is make, it is stored in a secure database and the passwords are hashed for extra security. 
 
 Creating a Login:
 ![alt text](images/makinglogin.png)
@@ -254,7 +256,7 @@ For my Match Between System and the Real World needs, I stated I needed to be:
 - Using navigation that is at the top of the page
 - Having an image to show the car
 
-I incorperated both of these needs into the interface, by having the navigation bar at the top of the screen where it can easly be seen and used, and I am showing pictures of cars on the home page similar to other auto trading websites like AutoTrader and Trade Me to insure maximum familiarity.
+I incorporated both of these needs into the interface, by having the navigation bar at the top of the screen where it can easily be seen and used, and I am showing pictures of cars on the home page similar to other auto trading websites like AutoTrader and Trade Me to insure maximum familiarity.
 
 Home page showing Navigation and Car Images:
 
@@ -266,7 +268,7 @@ For my Consistency and Standards needs, I stated I needed to have:
 - Text that is easy to read for navigation.
 - Have all the navigation on the top of the screen, or in a dropdown menu.
 
-As shown, you can see that the navigation is at the top of the screen, and the text is a good size, evenly spaced and therefore easy to read, and accessable. 
+As shown, you can see that the navigation is at the top of the screen, and the text is a good size, evenly spaced and therefore easy to read, and accessible. 
 
 Home page showing Navigation and Text:
 
@@ -279,7 +281,7 @@ For my Aesthetic and Minimalist Design, I stated I needed to be:
 - Making sure that adding cars to the database is not complicated/extensive
 - Making sure navigating is not overwhelming.
 
-When coding my interface, I made sure to only have essential information in all the pages/screens to insure maximum accessablity for all ages, part of which was making the navigation not overwhelming. The process of adding a car to the database is very easy, and once again, only asks for what is absolutley necessary.
+When coding my interface, I made sure to only have essential information in all the pages/screens to insure maximum accessibility for all ages, part of which was making the navigation not overwhelming. The process of adding a car to the database is very easy, and once again, only asks for what is absolutely necessary.
 
 Home page:
 

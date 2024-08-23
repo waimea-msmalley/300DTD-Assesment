@@ -3,8 +3,8 @@
 
     --border-color:       #009732;
     --accent-color:       #0EC65A;
-    --text-color:         black;
-    --h1-color:           white;
+    --text-color:         white;
+    --black:              black;
     --background-color:   rgb(29, 34, 39);
 
     --link-active-color:  #0EC65A;
@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 button {
@@ -27,11 +28,11 @@ button {
 [role=button] {
     background-color: var(--border-color);
     color: var(--text-color);
-    border-color: var(--text-color);
+    border-color: var(--border-color)
 }
 
 h1{
-    color: var(--h1-color);
+    color: var(--text-color);
 }
 
 h2{
@@ -40,7 +41,11 @@ h2{
 }
 
 h3{
-    color: var(--h1-color);
+    color: black;
+}
+
+p{
+    color: var(--text-color);
 }
 
 div.centre {
@@ -57,7 +62,6 @@ div.centre {
 img {
     border: 2px solid white;    
 }
-
   
 /* HEADER ---------------------------------------- */
 
@@ -142,9 +146,9 @@ article h1{
 }
 
 form #button {
-    background-color: var(--text-color);
+    background-color: black;
     color: var(--h1-color);
-    border-color: var(--text-color);
+    border-color: black;
 }
 
 input[type=file] {
@@ -152,9 +156,9 @@ input[type=file] {
 }
 
 #button{
-    background-color: var(--text-color);
+    background-color: black;
     color: var(--h1-color);
-    border-color: var(--text-color);
+    border-color: black;
 }
 
 label {
