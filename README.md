@@ -1,6 +1,6 @@
 # Classic Car sharing Website
 
-![1965 Shelby Cobra](images/shelby-cobra.jpeg)
+![1965 Shelby Cobra](docs/images/shelbycobra.jpeg) 
 
 This is my level 3 NCEA Project for Digital Technologies.
 
@@ -19,3 +19,8 @@ The following documents support this project:
 - [Design & Review](Design.md)
 - [Development & Testing](Development.md)
 
+### Usernames for Moderation
+
+- Username: moderator----Password: moderator
+
+- Username: moderator2----Password: moderator2

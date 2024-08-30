@@ -270,7 +270,7 @@ Here is a video of my testing the functionality of my website. In the video you 
 -Sending a message to an owner
 -Logging into the owners account and viewing the message we sent him
 
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+[Functionality Video](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/msmalley_waimea_school_nz/EUZk9MIE97JPn_qntpVFKcsBPJwmSGgS7b_gXa1hDFmc2Q?e=ZvKiT0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 <!-- ### DATE
